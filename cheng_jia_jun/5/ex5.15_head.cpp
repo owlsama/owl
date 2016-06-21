@@ -1,3 +1,4 @@
+//陈家俊书上例子5.15 
 struct Node
 {
 	int content;
@@ -21,7 +22,7 @@ int main()
 	return 0;
 }
 
-Node *input()
+Node *input() //表头插入节点 
 {
 	int x;
 	cin>>x;
@@ -42,7 +43,7 @@ Node *input()
 	return head;
 }
 
-void sort(Node *h)
+void sort(Node *h) //选择排序 
 {
 	for(Node *q=h;q!=NULL;q=q->next)
 	{
